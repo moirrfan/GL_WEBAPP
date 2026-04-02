@@ -8,6 +8,7 @@ trigger:
 
 pool:
   vmImage: 'windows-latest'
+  name: 'KodeKloudCustomer'
 
 variables:
   solution: '**/*.sln'
